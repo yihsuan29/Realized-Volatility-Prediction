@@ -2,12 +2,10 @@
 NYCU Data Mining Final Project - Realized Volatility Prediction
 This task is based on the Kaggle competition [**Optiver – Realized Volatility Prediction**](https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/overview).
 
----
 
 ## Problem Definition
 Given historical **limit order book (top 2 levels)** and **trade data**, predict the **realized volatility over the next 10 minutes** for each stock.
 
----
 
 ## Data
 - **112 stocks**, 3,830 time buckets
@@ -16,7 +14,6 @@ Given historical **limit order book (top 2 levels)** and **trade data**, predict
   - `book`: best bid/ask prices & sizes
   - `trade`: transaction price, volume, order count
 
----
 
 ## Method
 1. **Feature Engineering**
@@ -31,13 +28,11 @@ Given historical **limit order book (top 2 levels)** and **trade data**, predict
 4. **Ensemble**
    - Weighted averaging of model predictions
 
----
 
 ## Evaluation
 - **Metric:** RMSPE (official Kaggle metric)
 - **Validation:** 5-fold cross validation
 
----
 
 ## Results
 - Best ensemble RMSPE: **0.2199**
