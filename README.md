@@ -40,4 +40,7 @@ Given historical **limit order book (top 2 levels)** and **trade data**, predict
 - Achieved **Top 4%** on Kaggle private leaderboard
 - Ensemble outperforms all single models
 
+## Team
+- Feature Engineering & Analysis: Yi-Hsuan Chen, Zhen-Hao Wu  
+- Modeling & Training: Yu-Ting Lin, Jun-Xiang Huang
 
