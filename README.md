@@ -1,6 +1,7 @@
 # Realized Volatility Prediction
 NYCU Data Mining Final Project - Realized Volatility Prediction <br>
 This task is based on the Kaggle competition [**Optiver – Realized Volatility Prediction**](https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/overview).
+**Note:** As required by the Kaggle competition, all source code is implemented and executed within a **single Jupyter notebook**.
 
 
 ## Problem Definition
@@ -39,7 +40,4 @@ Given historical **limit order book (top 2 levels)** and **trade data**, predict
 - Achieved **Top 4%** on Kaggle private leaderboard
 - Ensemble outperforms all single models
 
-## Tools & Implementation
-Python, LightGBM, TensorFlow / Keras, TabNet  
-**Note:** As required by the Kaggle competition, all source code is implemented and executed within a **single Jupyter notebook**.
 
